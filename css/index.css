@@ -9,21 +9,47 @@ html
 
 body
 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: auto;
 }
 
 .nav li
 {
-    display: inline;
+    display: none;
     color: white;
     padding: 30px;
+}
+
+.article a
+{
+    text-decoration: none;
+    font-size: large;  
 }
 
 .article
 {
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+}
+
+.article h1
+{
+    font-size: 2.3rem;
+}
+
+.bevezetes
+{
+    margin-top: 50px;
+}
+
+.bevezetes p
+{
+    border: 2px solid white;
+    border-radius: 7px;
+    display: inline;
+    padding: 10px;
+    color: white;
+    box-shadow: 3px 3px 25px black;
 }
 
 
@@ -32,7 +58,9 @@ body
     background-color: rgba(0, 0, 0, 0.300);
     padding-top: 1px;
     padding-bottom: 1px;
-    margin-top: 749px;
+    margin-top: 712px;
+    
+    
 }
 
 .footerdiv p
