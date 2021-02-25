@@ -12,11 +12,23 @@ body
     margin: auto;
 }
 
+.nav a
+{
+    text-decoration: none;
+}
+
+.nav a:hover
+{
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+    border-width: thin;
+}
+
 .nav li
 {
     display: inline;
     color: white;
-    padding: 30px;
+    padding: 20px;
 }
 
 .article
@@ -37,6 +49,7 @@ body
 
 .footerdiv p
 {
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
+    opacity: 0.8;
 }
